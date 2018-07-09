@@ -1,0 +1,29 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wojciech Cywinski",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/ --browser=chrome",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "validator": "^10.4.0",
+    "webpack": "^4.15.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  }
+}
