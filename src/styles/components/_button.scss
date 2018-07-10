@@ -13,7 +13,12 @@
 
 .big-button:disabled {
   opacity: .5;
-  ;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  .big-button {
+    margin-bottom: $m-size;
+  }
 }
 
 // Button
